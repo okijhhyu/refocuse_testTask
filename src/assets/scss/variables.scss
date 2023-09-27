@@ -1,0 +1,33 @@
+:root {
+  --white: #fff;
+  --orange: #f17124;
+  --white_a:#DCDFE6;
+  --gray_a: gray;
+  --gray_g: gray;
+  --gray_c: gray;
+  --gray_e: gray;
+  --black_a: black;
+  --font: Robots
+}
+$white: var(--white);
+$orange: var(--orange);
+$white_a: var(--white_a);
+$gray_a: var(--gray_a);
+$gray_g: var(--gray_g);
+$gray_c: var(--gray_c);
+$gray_e: var(--gray_e);
+$black_a: var(--black_a);
+$font: var(--font);
+
+:export {
+  $white: var(--white);
+  $orange: var(--orange);
+  $white_a: var(--white_a);
+  $gray_a: var(--gray_a);
+  $gray_g: var(--gray_g);
+  $gray_c: var(--gray_c);
+  $gray_e: var(--gray_e);
+  $black_a: var(--black_a);
+  $font: var(--font);
+}
+
