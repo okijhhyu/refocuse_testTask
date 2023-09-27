@@ -222,6 +222,7 @@ const {
   updateCurrentLevel,
   setCurrentLevel
 } = useLevelsStore();
+
 // Get levels
 try {
   fetchLevels();
